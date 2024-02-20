@@ -44,6 +44,3 @@ def travel_itinerary(interests: str, city: str, country: str, budget: str):
     result = chat.invoke(request)
     
     return result.content    
-    
-output = travel_itinerary('Going to Restaurants', 'Toronto', 'Canada', '$500')
-print(output)
